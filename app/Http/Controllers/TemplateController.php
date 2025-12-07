@@ -11,7 +11,27 @@ class TemplateController extends Controller
      */
     public function index()
     {
-        return view('frontend.master');
+        return view('frontend.home');
+    }
+       public function about()
+    {
+        return view('frontend.about');
+    }
+       public function projects()
+    {
+        return view('frontend.projects');
+    }
+       public function services()
+    {
+        return view('frontend.services');
+    }
+       public function testimonial()
+    {
+        return view('frontend.testimonial');
+    }
+       public function contact()
+    {
+        return view('frontend.contact');
     }
 
     /**

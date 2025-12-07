@@ -1,163 +1,7 @@
-﻿<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <title>Crafto - The Multipurpose HTML5 Template</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="ThemeZaa" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 56+ ready demos."
-    />
-    <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href=
-      "images/apple-touch-icon-72x72.png"
-    />
-    
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="images/apple-touch-icon-114x114.png"
-    />
-    <!-- google fonts preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- slider revolution CSS files -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="revolution/css/navigation.css"
-    />
-    <!-- style sheets and font icons  -->
-    <link rel="stylesheet" href="css/vendors.min.css" />
-    <link rel="stylesheet" href="css/icon.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="demos/corporate/corporate.css" />
-  </head>
+@extends('frontend.master')
+@section('content')
 
 
-  <body
-    data-mobile-nav-trigger-alignment="right"
-    data-mobile-nav-style="modern"
-    data-mobile-nav-bg-color="#242E45"
-  >
-    <div class="box-layout">
-      <!-- start header -->
-  <header>
-        <!-- start navigation -->
-        <nav
-          class="navbar navbar-expand-lg header-light bg-white disable-fixed"
-        >
-          <div class="container-fluid">
-            <div class="col-auto col-xl-3 col-lg-2 me-lg-0 me-auto">
-              <a class="navbar-brand" href="demo-corporate.html">
-                <img
-                  src="images/mightybreeze-logo.png"
-                  data-at2x="images/mightybreeze-logo.png"
-                  alt=""
-                  class="default-logo"
-                />
-                <img
-                  src="images/mightybreeze-logo.png"
-                  data-at2x="images/mightybreeze-logo.png"
-                  alt=""
-                  class="alt-logo"
-                />
-                <img
-                  src="images/mightybreeze-logo.png"
-                  data-at2x="images/mightybreeze-logo.png"
-                  alt=""
-                  class="mobile-logo"
-                 
-                />
-              </a>
-            </div>
-            <div class="col-auto col-xl-6 col-lg-8 menu-order position-static">
-              <button
-                class="navbar-toggler float-start"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-line"></span>
-                <span class="navbar-toggler-line"></span>
-                <span class="navbar-toggler-line"></span>
-                <span class="navbar-toggler-line"></span>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-center"
-                id="navbarNav"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a href="demo-corporate.html" class="nav-link">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="demo-corporate-about.html" class="nav-link"
-                      >About</a
-                    >
-                  </li>
-                  <li class="nav-item ">
-                    <a href="demo-corporate-services-details.html" class="nav-link"
-                      >Services</a
-                    >                 
-                  </li>
-                  <li class="nav-item">
-                    <a href="demo-corporate-blog.html" class="nav-link">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="demo-corporate-customer-stories.html"
-                      class="nav-link"
-                      >Testimonials</a
-                    >
-                  </li>
-              
- 
-                  <li class="nav-item">
-                    <a href="demo-corporate-contact.html" class="nav-link"
-                      >Contact</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-auto col-xl-3 col-lg-2 text-end md-pe-0 header-icon ">
-              
-         
-                <div class="header-button ms-20px d-none d-xl-inline-block">
-                  <a
-                    href="demo-corporate-contact.html"
-                    class="btn btn-rounded btn-transparent-light-gray border-1 btn-medium  text-transform-none"
-                  >
-                    <span>
-                      <span
-                        class="btn-double-text fw-600"
-                        data-text="Free consultation"
-                        >Get Started Now</span
-                      >
-                     
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- end navigation -->
-  </header>
-      <!-- end header -->
       <!-- start slider -->
       <section id="slider" class="p-0 top-space-margin">
         <div
@@ -209,9 +53,9 @@
                   class="rev-slidebg img-fluid d-block d-lg-none"
                   data-no-retina
                   id="mobile-img"
-                  
+
                 />
-            
+
                 <!-- start overlay layer -->
                 <div
                   class="tp-caption tp-shape tp-shapewrapper"
@@ -414,7 +258,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[36,36,60,40]"
                         data-paddingleft="[0,0,0,0]"
-                        
+
                       >
                         Delivering expert borehole and siting services that empower homes, farms, and businesses with dependable water access.
                       </div>
@@ -443,7 +287,7 @@
                         data-paddingleft="[45,35,30,30]"
                       >
                         <a
-                          href="#"
+                          href="{{ route('contact') }}"
                           class="btn btn-extra-large get-started-btn btn-rounded with-rounded btn-gradient-flamingo-amethyst-green btn-box-shadow"
                           >Contact Us<span class="bg-white text-base-color"
                             ><i class="fa-solid fa-arrow-right"></i></span
@@ -780,7 +624,7 @@
                         data-paddingleft="[45,35,30,30]"
                       >
                         <a
-                          href="#"
+                          href="{{ route('contact') }}"
                           class="btn btn-extra-large get-started-btn btn-rounded with-rounded btn-gradient-flamingo-amethyst-green btn-box-shadow"
                           >Contact Us<span class="bg-white text-base-color"
                             ><i class="fa-solid fa-arrow-right"></i></span
@@ -1117,7 +961,7 @@
                         data-paddingleft="[45,35,30,30]"
                       >
                         <a
-                          href="#"
+                          href="{{ route('contact') }}"
                           class="btn btn-extra-large get-started-btn btn-rounded with-rounded btn-gradient-flamingo-amethyst-green btn-box-shadow"
                           >Contact Us<span class="bg-white text-base-color"
                             ><i class="fa-solid fa-arrow-right"></i></span
@@ -1206,8 +1050,8 @@
       <!-- end slider -->
       <!-- start section -->
       <section
-        class="d-none d-lg-block pt-0 pb-0 border-bottom border-color-extra-medium-gray"
-      >
+        class="d-none d-lg-block pt-0 pb-0 border-bottom border-color-extra-medium-gray">
+
         <div class="container">
           <div
             class="row row-cols-1 row-cols-md-3 row-cols-sm-2 justify-content-center"
@@ -1293,11 +1137,9 @@
               <h3 class="text-dark-gray fw-700 ls-minus-1px">
                MIGHTYBREEZE
               </h3>
-              <p class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px" style="color:#717580">
-            Mighty Breeze delivers reliable borehole drilling, irrigation, and solar solutions that provide sustainable access to water and clean energy. With over a decade of experience, we specialize in advanced, efficient systems supported by expert service. Committed to environmental responsibility and quality performance, Mighty Breeze is a trusted partner for communities and businesses seeking dependable, eco-friendly water and energy solution.
-              </p>
+           @include('frontend.layout.about')
               <a
-                href="demo-corporate-about.html"
+                href="{{ route('contact') }}"
                 class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-box-shadow btn-rounded me-25px xs-me-0"
               >
                 <span>
@@ -1312,13 +1154,13 @@
               </a>
               <span
                 class="text-dark-gray fw-700 ls-minus-05px d-block d-sm-inline-block sm-mt-15px"
-                ><a href=""
+                ><a href="tel:+263771060581"
                   ><i class="feather icon-feather-phone-call me-10px"></i>+263&nbsp;
  77&nbsp;
  106 &nbsp;
 0581</a
-                ></span
-              >
+                ></span>
+
             </div>
             <div
               class="col-lg-6 col-md-9 position-relative md-mb-15 text-center text-lg-start d-flex align-items-center justify-content-center"
@@ -1356,7 +1198,7 @@
                 alt=""
               />
             </div>
-           
+
           </div>
           <div
             class="row row-cols-1 row-cols-md-4 row-cols-sm-2 justify-content-center counter-style-07 ps-3 pe-3"
@@ -1450,7 +1292,7 @@
             class="row align-items-center mb-6 sm-mb-9 text-center text-lg-start"
           >
             <div class="col-lg-5 md-mb-20px">
-              
+
               <h3 class="text-white fw-700 mb-0 ls-minus-1px">
                 Corporate service
               </h3>
@@ -1521,7 +1363,7 @@
                               >Reliable extraction</span
                             >
                             <a
-                              href="demo-corporate-services-details.html"
+                              href="{{ route('services') }}"
                               class="content-title-hover fs-13 lh-24 fw-500 ls-05px text-uppercase text-white opacity-6 text-decoration-line-bottom"
                               >Explore services</a
                             >
@@ -1539,7 +1381,7 @@
                             class="box-overlay bg-gradient-base-color-transparent"
                           ></div>
                           <a
-                            href="demo-corporate-services-details.html"
+                            href="{{ route('services') }}"
                             class="position-absolute z-index-1 top-0px left-0px h-100 w-100"
                           ></a>
                         </div>
@@ -1581,7 +1423,7 @@
                               >Crop-boosting</span
                             >
                             <a
-                              href="demo-corporate-services-details.html"
+                              href="{{ route('services') }}"
                               class="content-title-hover fs-13 lh-24 fw-500 ls-05px text-uppercase text-white opacity-6 text-decoration-line-bottom"
                               >Explore services</a
                             >
@@ -1599,7 +1441,7 @@
                             class="box-overlay bg-gradient-base-color-transparent"
                           ></div>
                           <a
-                            href="demo-corporate-services-details.html"
+                            href="{{ route('services') }}"
                             class="position-absolute z-index-1 top-0px left-0px h-100 w-100"
                           ></a>
                         </div>
@@ -1641,7 +1483,7 @@
                               >Hand-operated</span
                             >
                             <a
-                              href="demo-corporate-services-details.html"
+                              href="{{ route('services') }}"
                               class="content-title-hover fs-13 lh-24 fw-500 ls-05px text-uppercase text-white opacity-6 text-decoration-line-bottom"
                               >Explore services</a
                             >
@@ -1659,7 +1501,7 @@
                             class="box-overlay bg-gradient-base-color-transparent"
                           ></div>
                           <a
-                            href="demo-corporate-services-details.html"
+                            href="{{ route('services') }}"
                             class="position-absolute z-index-1 top-0px left-0px h-100 w-100"
                           ></a>
                         </div>
@@ -1701,7 +1543,7 @@
                               >Energy-saving</span
                             >
                             <a
-                              href="demo-corporate-services-details.html"
+                              href="{{ route('services') }}"
                               class="content-title-hover fs-13 lh-24 fw-500 ls-05px text-uppercase text-white opacity-6 text-decoration-line-bottom"
                               >Explore services</a
                             >
@@ -1719,14 +1561,14 @@
                             class="box-overlay bg-gradient-base-color-transparent"
                           ></div>
                           <a
-                            href="demo-corporate-services-details.html"
+                            href="{{ route('services') }}"
                             class="position-absolute z-index-1 top-0px left-0px h-100 w-100"
                           ></a>
                         </div>
                       </div>
                       <!-- end interactive banner item -->
                     </div>
-                   
+
                       <!-- end interactive banner item -->
                     </div>
                     <!-- end slider item -->
@@ -1743,7 +1585,7 @@
               <div class="fs-18 text-white d-inline-block align-middle">
                 Save your precious time and effort spent for finding a solution.
                 <a
-                  href="demo-corporate-contact.html"
+                  href="{{ route('contact') }}"
                   class="text-white text-decoration-line-bottom"
                   >Contact us now</a
                 >
@@ -1754,237 +1596,19 @@
   </section>
       <!-- end section -->
       <!-- start projects section -->
-       <section class="position-relative">
-        <div class="container">
-          <div
-            class="row align-items-center mb-4"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-            <div class="col-xl-5 lg-mb-30px text-center text-xl-start">
-              <h3 class="text-dark-gray fw-700 mb-0 ls-minus-2px">Projects</h3>
-            </div>
-            <div class="col-xl-7 tab-style-04 text-center text-xl-end">
-              <!-- filter navigation -->
-              <ul
-                class="portfolio-filter nav nav-tabs justify-content-center justify-content-xl-end border-0 fw-500"
-              >
-                <li class="nav active"><a data-filter="*" href="#">All</a></li>
-                <li class="nav">
-                  <a data-filter=".borehole" href="#">Borehole</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".irrigation" href="#">Irrigation</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".solar" href="#">Solar Installation</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".pump" href="#">Bush Pump</a>
-                </li>
-              </ul>
-              <!-- end filter navigation -->
-            </div>
-          </div>
-          <div
-            class="row"
-            data-anime='{  "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-            <div class="col-12 filter-content p-md-0">
-              <ul
-                class="portfolio-modern portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
-              >
-                <li class="grid-sizer"></li>
-                <!-- start portfolio item -->
-                <li
-                  class="grid-item selected pump transition-inner-all"
-                >
-                  <a href="">
-                    <div class="portfolio-box">
-                      <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
-                      </div>
-                      <div class="portfolio-hover box-shadow-extra-large">
-                        <div
-                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
-                        >
-                          <div class="me-auto">
-                            <div
-                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
-                            >
-                              Borehole drilling
-                            </div>
-                            <div
-                              class="fw-700 text-dark-gray text-uppercase lh-initial"
-                            >
-                              Strong foundation for lasting structures.
-                            </div>
-                          </div>
-                          <div class="ms-auto">
-                            <i
-                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
-                            ></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <!-- end portfolio item -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+    @include('frontend.layout.projects')
       <!-- end section -->
       <!-- start section -->
-      <section
-        class="bg-gradient-quartz-white border-radius-6px lg-border-radius-0px pb-0"
-      >
-        <div
-          class="container background-no-repeat background-position-top"
-          style="background-image: url('images/testimonial.png')"
-        >
-          <div class="row justify-content-center pb-0 mb-0">
-            <div
-              class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 text-center test"
-              data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad " }'
-            >
-              <h3 class="text-dark-gray fw-700 ls-minus-1px pb-0">
-                Trusted by  fastest growing companies
-              </h3>
-            </div>
-          </div>
-          <div
-            class="row justify-content-center align-items-center mb-6 sm-mb-8"
-            data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 100, "staggervalue": 150, "easing": "easeOutQuad" }'
-          >
-            <div
-              class="col-12 position-relative ps-8 pe-8 lg-ps-15px lg-pe-15px mt-0"
-            >
-              <div
-                class="swiper magic-cursor testimonials-style-06"
-                data-slider-options='{ "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav", "effect": "fade" } }'
-              >
-                <div class="swiper-wrapper">
-                  <!-- start testimonial item -->
-                  <div class="swiper-slide">
-                    <div class="row align-items-center justify-content-center">
-                  
-                      <div
-                        class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start"
-                      >
-                
-                        <span
-                          class="mb-5px d-table fs-18 lh-30 fw-500 text-dark-gray"
-                          >Their team are easy to work with and helped me make
-                          amazing websites in a short amount of time. Thanks
-                          guys for all your hard work. Trust us we looked for a
-                          very long time.</span
-                        >
-                        <span
-                          class="fs-15 text-uppercase fw-800 text-base-color ls-1px"
-                          >Herman miller, Monday</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end testimonial item -->
-                  <!-- start testimonial item -->
-                  <div class="swiper-slide">
-                    <div class="row align-items-center justify-content-center">
-                  
-                      <div
-                        class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start"
-                      >
-                        
-                        <span
-                          class="mb-5px d-table fs-18 lh-30 fw-500 text-dark-gray" 
-                          >Their team are easy to work with and helped me make
-                          amazing websites in a short amount of time. Thanks
-                          guys for all your hard work. Trust us we looked for a
-                          very long time.</span
-                        >
-                        <span
-                          class="fs-15 text-uppercase fw-800 text-base-color ls-1px"
-                          >Leonel mooney, Logitech</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end testimonial item -->
-                  <!-- start testimonial item -->
-                 
-                  <!-- end testimonial item -->
-                </div>
-                <!-- start slider navigation -->
-                <div
-                  class="swiper-button-previous-nav swiper-button-prev md-left-0px"
-                >
-                  <i
-                    class="feather icon-feather-arrow-left icon-extra-medium text-dark-gray"
-                  ></i>
-                </div>
-                <div
-                  class="swiper-button-next-nav swiper-button-next md-right-0px"
-                >
-                  <i
-                    class="feather icon-feather-arrow-right icon-extra-medium text-dark-gray"
-                  ></i>
-                </div>
-                <!-- end slider pagination -->
-              </div>
-            </div>
-          </div>
-          <div
-            class="row row-cols-1 row-cols-md-3 justify-content-center mb-6 md-mb-8 sm-mb-45px"
-            data-anime='{ "el": "childs", "willchange": "transform", "perspective": [1200,1200], "translateY": [0, 0], "scale": [1.1, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 1000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-          
-          
-       
-          </div>
-         
-        </div>
-      </section>
+     @include('frontend.layout.testimonial')
       <!-- end section -->
        <!-- clients section -->
-         <section class="pt-0 " >
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-5 col-lg-6 text-center mb-1" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                            <span class="text-dark-gray fw-700 fs-15 text-uppercase border-1 pb-5px border-bottom border-color-extra-medium-gray text-dark-gray"></span>
-                        </div>
-                    </div>
-                    <div class="row position-relative clients-style-08 mt-25px" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 800, "delay":100, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <div class="col swiper text-center feather-shadow" data-slider-options='{ "slidesPerView": 2, "spaceBetween":0, "speed": 3000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":0, "disableOnInteraction": false, "pauseOnMouseEnter": false}, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 5 }, "768": { "slidesPerView": 3 }, "576": { "slidesPerView": 2 } }, "effect": "slide" }'>
-                            <div class="swiper-wrapper marquee-slide" id="clients-slider" >
-                                <!-- start client item -->
-                                <div class="swiper-slide">
-                                    <a href="#"><img src="images/client-one.png" alt="" /></a>
-                                </div>
-                                <!-- end client item -->
-                                <!-- start client item -->
-                                <div class="swiper-slide">
-                                    <a href="#"><img src="images/client-two.png" alt="" /></a>
-                                </div>
-                                <!-- end client item -->
-                                <!-- start client item -->
-                                <div class="swiper-slide">
-                                    <a href="#"><img src="images/client-three.png" alt="" /></a>
-                                </div>
-                                <!-- end client item -->
-                                <!-- start client item -->
-                               
-                            </div> 
-                        </div>  
-                    </div>
-                </div>
-            </section>
+     @include('frontend.layout.client')
         <!-- end client section -->
       <!-- start contact -->
-         <section class="bg-gradient-quartz-white position-relative z-index-0 sm-pt-0">
+      {{-- form --}}
+       <section class="bg-gradient-quartz-white position-relative z-index-0 sm-pt-0">
                 <div class="container-fluid overlap-section p-0">
-                  
+
                 </div>
                 <div class="container-fluid overflow-hidden position-relative pt-6 sm-pt-40px">
                     <img src="images/testimonial.png" class="position-absolute top-0 left-minus-300px z-index-minus-1" data-bottom-top="transform: rotate(0deg) translateY(0)" data-top-bottom="transform:rotate(-15deg) translateY(0)" alt=""/>
@@ -1994,296 +1618,9 @@
                             <h3 class="text-dark-gray fw-700 ls-minus-1px">How we can help you?</h3>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-xxl-6 col-xl-7 col-lg-11">
-                            <form action="email-templates/contact-form.php" method="post" class="contact-form-style-03">
-                                <div class="row justify-content-center" data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                    <div class="col-md-6">
-                                        <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Name*</label>
-                                        <div class="position-relative form-group mb-25px">
-                                            <span class="form-icon" style="color:#717580" ><i class="bi bi-emoji-smile"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required" id="exampleInputEmail1" type="text" name="name" placeholder="Enter your full name" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Email address*</label>
-                                        <div class="position-relative form-group mb-25px">
-                                            <span class="form-icon" style="color:#717580"><i class="bi bi-envelope"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required" id="exampleInputEmail2" type="email" name="email" placeholder="Enter your email address" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Phone number</label>
-                                        <div class="position-relative form-group mb-25px">
-                                            <span class="form-icon" style="color:#717580"><i class="bi bi-telephone"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="exampleInputEmail3" type="tel" name="phone" placeholder="Enter your phone number" />
-                                        </div>
-                                    </div> 
-                                    <div class="col-md-6">
-                                        <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Subject</label>
-                                        <div class="position-relative form-group mb-25px">
-                                            <span class="form-icon" style="color:#717580"><i class="bi bi-journals"></i></span>
-                                            <input class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" id="exampleInputEmail4" type="text" name="subject" placeholder="How can we help you?" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12 mb-4">
-                                        <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Your message</label>
-                                        <div class="position-relative form-group form-textarea mb-0"> 
-                                            <textarea class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" name="comment" placeholder="Describe about your project" rows="4"></textarea>
-                                            <span class="form-icon"style="color:#717580"><i class="bi bi-chat-square-dots"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-6 col-lg-7 col-md-8">
-                                        <p class="mb-0 fs-14 lh-24 text-center text-md-start"
-                                        style="color:#717580"
-                                        >We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</p>
-                                    </div>
-                                    <div class="col-xxl-6 col-lg-5 col-md-4 text-center text-md-end sm-mt-25px   ">
-                                        <input id="exampleInputEmail5" type="hidden" name="redirect" value="">
-                                        <button class="btn btn-medium btn-dark-gray btn-box-shadow btn-rounded text-transform-none primary-font submit" type="submit">Send message</button>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-results mt-20px d-none"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section> 
-       <!-- end contact -->
-      <!-- start footer -->
-      <footer class="p-0 fs-16 border-top border-color-extra-medium-gray bg-blue">
-  <div class="container">
-    <div class="row justify-content-center pt-6 sm-pt-40px">
+      @include('frontend.layout.form')
 
-      <!-- Column 1 -->
-      <div class="col-6 col-md-3 mb-4 text-xl-start text-lg-center">
-        <p class="lh-30 w-90 xl-w-100 mx-lg-auto mx-xl-0">
-          <b>DRILL WITH MIGHTYBREEZE</b>
-        </p>
-        <p>Mon - Sat 8:00 - 17:30,</p>
-        <p class="mt">Sunday - CLOSED</p>
+          </div>
+            </section>
 
-        <div class="elements-social social-icon-style-02 mt-20px xs-mt-15px">
-          <ul class="medium-icon dark">
-            <li><a class="facebook text-white" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a class="twitter text-white" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a class="instagram text-white" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-             <li><a class="linkedin text-white" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Column 2 -->
-      <div class="col-6 col-md-3 mb-4">
-        <span class="fs-17 fw-600 d-block mb-5px">Company</span>
-        <ul class="text-white">
-          <li><a href="demo-corporate-about.html">Who we are</a></li>
-          <li><a href="demo-corporate-services-details.html">Our services</a></li>
-          <li><a href="demo-corporate-customer-stories.html">Our clients</a></li>
-          <li><a href="demo-corporate-contact.html">Contact us</a></li>
-        </ul>
-      </div>
-
-      <!-- Column 3 -->
-      <div class="col-6 col-md-3 mb-4">
-        <span class="fs-17 fw-600 d-block mb-5px">Services</span>
-        <ul class="text-white">
-          <li><a href="#">Borehole Drilling</a></li>
-          <li><a href="#">Solar Installation</a></li>
-          <li><a href="#">Irrigation</a></li>
-          <li><a href="#">Bush Pumps</a></li>
-        </ul>
-      </div>
-
-      <!-- Column 4 -->
-      <div class="col-6 col-md-3 mb-4">
-        <span class="fs-17 fw-600 d-block mb-5px">Contact Us</span>
-        <ul class="text-white">
-          <li><a href="tel:+263718995907">+263 71 899 5907</a></li>
-          <li><a href="tel:+263771060581">+263 77 106 0581</a></li>
-          <li><a href="tel:+263772466985">+263 77 246 6985</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <!-- Divider -->
-    <div class="row justify-content-center align-items-center pt-2">
-      <div class="col-12">
-        <div class="divider-style-03 divider-style-03-01 border-color-transparent-white-light"></div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="col-lg-5 pt-35px pb-35px md-pt-0 text-center text-lg-start">
-        <p>&copy; 2025 Proudly Powered By 
-          <a href="#" target="_blank" class="text-white fw-600 text-decoration-line-bottom">DM Technologies</a>
-        </p>
-      </div>
-    </div>
-
-  </div>
-</footer>
-
-      <!-- end footer -->
-      <!-- start scroll progress -->
-      <div class="scroll-progress d-none d-xxl-block">
-        <a href="#" class="scroll-top" aria-label="scroll">
-          <span class="scroll-text">Scroll</span
-          ><span class="scroll-line"><span class="scroll-point"></span></span>
-        </a>
-      </div>
-      <!-- end scroll progress -->
-    </div>
-    <!-- javascript libraries -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/vendors.min.js"></script>
-    <!-- slider revolution core javaScript files -->
-    <script
-      type="text/javascript"
-      src="revolution/js/jquery.themepunch.tools.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="revolution/js/jquery.themepunch.revolution.min.js"
-    ></script>
-    <!-- slider revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING -->
-    <!-- <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> -->
-
-    <!-- Slider's main "init" script -->
-    <script>
-      var tpj = jQuery;
-      var revapi7;
-      var $ = jQuery.noConflict();
-      tpj(document).ready(function () {
-        if (tpj("#demo-corporate-slider").revolution == undefined) {
-          revslider_showDoubleJqueryError("#demo-corporate-slider");
-        } else {
-          revapi7 = tpj("#demo-corporate-slider")
-            .show()
-            .revolution({
-              sliderType: "standard",
-              /* sets the Slider's default timeline */
-              delay: 9000,
-              /* options are 'auto', 'fullwidth' or 'fullscreen' */
-              sliderLayout: "fullscreen",
-              /* RESPECT ASPECT RATIO */
-              autoHeight: "off",
-              /* options that disable autoplay */
-              stopLoop: "off",
-              stopAfterLoops: -1,
-              stopAtSlide: -1,
-              navigation: {
-                keyboardNavigation: "on",
-                keyboard_direction: "horizontal",
-                mouseScrollNavigation: "off",
-                mouseScrollReverse: "reverse",
-                onHoverStop: "off",
-                arrows: {
-                  enable: true,
-                  style: "hesperiden",
-                  rtl: false,
-                  hide_onleave: false,
-                  hide_onmobile: true,
-                  hide_under: 500,
-                  hide_over: 9999,
-                  hide_delay: 200,
-                  hide_delay_mobile: 1200,
-                  left: {
-                    container: "slider",
-                    h_align: "left",
-                    v_align: "center",
-                    h_offset: 50,
-                    v_offset: 0,
-                  },
-                  right: {
-                    container: "slider",
-                    h_align: "right",
-                    v_align: "center",
-                    h_offset: 50,
-                    v_offset: 0,
-                  },
-                },
-                bullets: {
-                  enable: true,
-                  style: "hermes",
-                  tmp: "",
-                  direction: "horizontal",
-                  rtl: false,
-
-                  container: "layergrid",
-                  h_align: "center",
-                  v_align: "bottom",
-                  h_offset: 0,
-                  v_offset: 30,
-                  space: 12,
-
-                  hide_onleave: false,
-                  hide_onmobile: true,
-                  hide_under: 0,
-                  hide_over: 500,
-                  hide_delay: true,
-                  hide_delay_mobile: 500,
-                },
-                touch: {
-                  touchenabled: "on",
-                  touchOnDesktop: "on",
-                  swipe_threshold: 75,
-                  swipe_min_touches: 1,
-                  swipe_direction: "horizontal",
-                  drag_block_vertical: true,
-                },
-              },
-              responsiveLevels: [1240, 1024, 768, 480],
-              visibilityLevels: [1240, 1024, 768, 480],
-              gridwidth: [1240, 1024, 768, 480],
-              gridheight: [930, 850, 900, 850],
-              /* Lazy Load options are "all", "smart", "single" and "none" */
-              lazyType: "smart",
-              spinner: "spinner0",
-              parallax: {
-                type: "scroll",
-                origo: "slidercenter",
-                speed: 400,
-                levels: [
-                  5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 5,
-                ],
-              },
-              shadow: 0,
-              shuffle: "off",
-              fullScreenAutoWidth: "on",
-              fullScreenAlignForce: "on",
-              fullScreenOffsetContainer: "nav",
-              fullScreenOffset: "",
-              hideThumbsOnMobile: "off",
-              hideSliderAtLimit: 0,
-              hideCaptionAtLimit: 0,
-              hideAllCaptionAtLilmit: 0,
-              debugMode: false,
-              fallbacks: {
-                simplifyAll: "off",
-                nextSlideOnWindowFocus: "off",
-                disableFocusListener: false,
-              },
-            });
-        }
-      }); /*ready*/
-    </script>
-    <script>
-      // Add page-loaded class after content is ready to prevent blinking
-      revapi7.on("revolution.slide.onloaded", function () {
-        tpj("#slider").addClass("revslider-loaded");
-      });
-    </script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
-</html>
+@endsection
