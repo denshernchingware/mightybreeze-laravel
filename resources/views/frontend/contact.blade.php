@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="row align-items-end justify-content-center mb-6 text-center text-lg-start sm-mb-8">
                         <div class="col-xl-5 col-lg-7 col-md-10 md-mb-25px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                            <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">How can help you?</span>
+                            <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">How can help we you?</span>
                             <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">Have a project in mind? Get in touch!</h3>
                         </div>
                         <div class="col-xl-6 offset-xl-1 col-lg-5 col-md-10 last-paragraph-no-margin" style="color:#717580">

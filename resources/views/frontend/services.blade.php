@@ -19,82 +19,562 @@
                 </div>
             </section>
             <!-- end page title -->
-
-
-<section class="position-relative">
-        <div class="container">
-          <div
-            class="row align-items-center mb-4"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-            <div class="col-xl-5 lg-mb-30px text-center text-xl-start">
-              <h3 class="text-dark-gray fw-700 mb-0 ls-minus-2px">Services</h3>
+<section class='py-2'>
+     <div class="container py-2">
+                <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">Services</h3>
             </div>
-            <div class="col-xl-7 tab-style-04 text-center text-xl-end">
-              <!-- filter navigation -->
-              <ul
-                class="portfolio-filter nav nav-tabs justify-content-center justify-content-xl-end border-0 fw-500"
-              >
-                <li class="nav active"><a data-filter="*" href="#">All</a></li>
-                <li class="nav">
-                  <a data-filter=".borehole" href="#">Borehole</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".irrigation" href="#">Irrigation</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".solar" href="#">Solar Installation</a>
-                </li>
-                <li class="nav">
-                  <a data-filter=".pump" href="#">Bush Pump</a>
-                </li>
-              </ul>
-              <!-- end filter navigation -->
-            </div>
-          </div>
-          <div
-            class="row"
-            data-anime='{  "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-            <div class="col-12 filter-content p-md-0">
-              <ul
-                class="portfolio-modern portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
-              >
-                <li class="grid-sizer"></li>
-                <!-- start portfolio item -->
-                <li
-                  class="grid-item selected pump transition-inner-all"
-                >
+</section>
+<section class="py-2 " style="color: #717580">
+  <div class="container">
+    <div class="row align-items-start">
 
-                    <div class="portfolio-box">
-                      <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
-                      </div>
-                      <div class="portfolio-hover box-shadow-extra-large">
-                        <div
-                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
-                        >
-                          <div class="me-auto">
-                            <div
-                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
-                            >
-                              clean, reliable, and independent water supply by drilling a professional borehole (private water well) on your property.
-                            </div>
-
-
-                        </div>
-
-                      </div>
-
-                    </div>
-                    <div class="text-medium-gray">Borehole Drilling</div>
-
-                </li>
-                <!-- end portfolio item -->
-              </ul>
-            </div>
-          </div>
+      <!-- LEFT IMAGE (fixed using ratio) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="" style="">   <!-- FIXED SIZE -->
+          <img src="{{asset('images/main-serv.png')}}" class="img-fluid rounded object-fit-cover" alt="Service Image">
         </div>
-      </section>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-md-6 ml-4">
+
+        <h3 class="mb-3  text-dark-gray fw-700 ls-minus-1px">Borehole</h3>
+
+        <div class="accordion" id="boreholeAccordion">
+
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item1">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item2">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE ITEMS IF YOU WANT -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item3">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item4">
+              <button class="accordion-button collapsed acc-btn "  type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+                <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-2 " style="color: #717580">
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- LEFT IMAGE (fixed using ratio) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="" style="">   <!-- FIXED SIZE -->
+          <img src="{{asset('images/irrigation-main.png')}}" class="img-fluid rounded object-fit-cover" alt="Service Image">
+        </div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-md-6 ml-4">
+
+        <h3 class="mb-3  text-dark-gray fw-700 ls-minus-1px">Solar Installation</h3>
+
+        <div class="accordion" id="boreholeAccordion">
+
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item1">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item2">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE ITEMS IF YOU WANT -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item3">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item4">
+              <button class="accordion-button collapsed acc-btn "  type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+                <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-2 " style="color: #717580">
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- LEFT IMAGE (fixed using ratio) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="" style="">   <!-- FIXED SIZE -->
+          <img src="{{asset('images/irr-serv.webp')}}" class="img-fluid rounded object-fit-cover" alt="Service Image">
+        </div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-md-6 ml-4">
+
+        <h3 class="mb-3  text-dark-gray fw-700 ls-minus-1px">Irrigation</h3>
+
+        <div class="accordion" id="boreholeAccordion">
+
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item1">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item2">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE ITEMS IF YOU WANT -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item3">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item4">
+              <button class="accordion-button collapsed acc-btn "  type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+                <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-2 " style="color: #717580">
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- LEFT IMAGE (fixed using ratio) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="" style="">   <!-- FIXED SIZE -->
+          <img src="{{asset('images/bush-pump-serv-main.png')}}" class="img-fluid rounded object-fit-cover" alt="Service Image">
+        </div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-md-6 ml-4">
+
+        <h3 class="mb-3  text-dark-gray fw-700 ls-minus-1px">Bush Pump</h3>
+
+        <div class="accordion" id="boreholeAccordion">
+
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item1">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item2">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE ITEMS IF YOU WANT -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item3">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item4">
+              <button class="accordion-button collapsed acc-btn "  type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+                <div class="accordion-item">
+            <h2 class="accordion-header" id="item5">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                Borehole Drilling
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                High-quality drilling for homes, farms, and businesses.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="item6">
+              <button class="accordion-button collapsed acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                Pump Installation
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#boreholeAccordion">
+              <div class="accordion-body">
+                Reliable pump setup ensuring proper water pressure.
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 @endsection

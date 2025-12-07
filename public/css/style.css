@@ -81,7 +81,7 @@ Table of contents
   --camarone: #20642b;
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
-  
+
 }
 /* ===================================
     03. Reset
@@ -20888,4 +20888,8 @@ footer .footer-navbar .nav-item:last-child a {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+.acc-btn{
+    font-size:18px;
+    color: #717580;
 }

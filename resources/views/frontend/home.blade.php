@@ -1331,8 +1331,8 @@
                     <div class="swiper-slide">
                       <!-- start interactive banner item -->
                       <div
-                        class="interactive-banner-style-09 border-radius-6px overflow-hidden position-relative"
-                      >
+                        class="interactive-banner-style-09 border-radius-6px overflow-hidden position-relative">
+
                         <img src="images/dilling-serv.png" alt="" />
                         <div
                           class="opacity-extra-medium bg-gradient-dark-transparent"
@@ -1568,10 +1568,68 @@
                       </div>
                       <!-- end interactive banner item -->
                     </div>
-
+                      <div class="swiper-slide">
+                      <!-- start interactive banner item -->
+                      <div
+                        class="interactive-banner-style-09 border-radius-6px overflow-hidden position-relative"
+                      >
+                        <img src="images/irrigation-serv.png" alt="" />
+                        <div class="opacity-very-light bg-slate-blue"></div>
+                        <div
+                          class="image-content h-100 w-100 ps-15 pe-15 pt-13 pb-13 md-p-10 d-flex justify-content-bottom align-items-start flex-column"
+                        >
+                          <div
+                            class="hover-label-icon position-relative z-index-9"
+                          >
+                            <div
+                              class="label bg-base-color fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 ls-05px"
+                            >
+                              Irrigation
+                            </div>
+                            <i
+                              class="line-icon-Archery-2 text-white icon-extra-large"
+                            ></i>
+                          </div>
+                          <div
+                            class="mt-auto d-flex align-items-start w-100 z-index-1 position-relative overflow-hidden flex-column"
+                          >
+                            <span class="text-white fw-600 fs-20"
+                              >Irrigation</span
+                            >
+                            <span
+                              class="content-title text-white fs-13 fw-500 text-uppercase ls-05px"
+                              >Crop-boosting</span
+                            >
+                            <a
+                              href="{{ route('services') }}"
+                              class="content-title-hover fs-13 lh-24 fw-500 ls-05px text-uppercase text-white opacity-6 text-decoration-line-bottom"
+                              >Explore services</a
+                            >
+                            <span
+                              class="content-arrow lh-42px rounded-circle bg-white w-50px h-50px ms-20px text-center"
+                              ><i
+                                class="fa-solid fa-chevron-right text-dark-gray fs-16"
+                              ></i
+                            ></span>
+                          </div>
+                          <div
+                            class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-regal-blue-transparent opacity-9"
+                          ></div>
+                          <div
+                            class="box-overlay bg-gradient-base-color-transparent"
+                          ></div>
+                          <a
+                            href="{{ route('services') }}"
+                            class="position-absolute z-index-1 top-0px left-0px h-100 w-100"
+                          ></a>
+                        </div>
+                      </div>
+                      <!-- end interactive banner item -->
+                    </div>
                       <!-- end interactive banner item -->
                     </div>
                     <!-- end slider item -->
+
                   </div>
                 </div>
               </div>

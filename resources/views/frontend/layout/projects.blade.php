@@ -42,40 +42,7 @@
                 <li class="grid-sizer"></li>
                 <!-- start portfolio item -->
                 {{-- from admin --}}
-                <li
-                  class="grid-item selected pump transition-inner-all">
 
-                  <a href="">
-                    <div class="portfolio-box">
-                      <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
-                      </div>
-                      <div class="portfolio-hover box-shadow-extra-large">
-                        <div
-                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
-                        >
-                          <div class="me-auto">
-                            <div
-                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
-                            >
-                              Borehole drilling
-                            </div>
-                            <div
-                              class="fw-700 text-dark-gray text-uppercase lh-initial"
-                            >
-                              Strong foundation for lasting structures.
-                            </div>
-                          </div>
-                          <div class="ms-auto">
-                            <i
-                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
-                            ></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
                 <!-- end portfolio item -->
                     <!-- start portfolio item -->
 
@@ -118,7 +85,7 @@
                           <!-- start portfolio item -->
 
                 <li
-                  class="grid-item selected solar transition-inner-all">
+                  class="grid-item  solar transition-inner-all">
 
 
                     <div class="portfolio-box">
@@ -155,7 +122,7 @@
                          <!-- start portfolio item -->
 
                 <li
-                  class="grid-item selected irrigation transition-inner-all">
+                  class="grid-item  irrigation transition-inner-all">
 
 
                     <div class="portfolio-box">
@@ -194,9 +161,9 @@
                          <!-- start portfolio item -->
 
                 <li
-                  class="grid-item selected pump transition-inner-all">
+                  class="grid-item  irrigation transition-inner-all">
 
-                  
+
                     <div class="portfolio-box">
                       <div class="portfolio-image border-radius-4px">
                         <img src="{{asset('images/project-five.jpg')}}" alt="" />
@@ -209,12 +176,129 @@
                             <div
                               class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
                             >
-                              Borehole drilling
+                             Drip Irrigation
                             </div>
                             <div
                               class="fw-700 text-dark-gray text-uppercase lh-initial"
                             >
-                              Strong foundation for lasting structures.
+                              Precision Crop Watering Solution.
+                            </div>
+                          </div>
+                          <div class="ms-auto">
+                            <i
+                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </li>
+
+                {{-- end project item--}}
+
+                         <!-- start portfolio item -->
+
+                <li
+                  class="grid-item selected pump transition-inner-all">
+
+
+                    <div class="portfolio-box">
+                      <div class="portfolio-image border-radius-4px">
+                        <img src="{{asset('images/project-six.jpg')}}" alt="" />
+                      </div>
+                      <div class="portfolio-hover box-shadow-extra-large">
+                        <div
+                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
+                        >
+                          <div class="me-auto">
+                            <div
+                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
+                            >
+                              Bush Pump
+                            </div>
+                            <div
+                              class="fw-700 text-dark-gray text-uppercase lh-initial"
+                            >
+                              Reliable hand-operated water pump.
+                            </div>
+                          </div>
+                          <div class="ms-auto">
+                            <i
+                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </li>
+
+                {{-- end project item--}}
+
+                         <!-- start portfolio item -->
+
+                <li
+                  class="grid-item  borehole transition-inner-all">
+
+
+                    <div class="portfolio-box">
+                      <div class="portfolio-image border-radius-4px">
+                        <img src="{{asset('images/project-seven.jpeg')}}" alt="" />
+                      </div>
+                      <div class="portfolio-hover box-shadow-extra-large">
+                        <div
+                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
+                        >
+                          <div class="me-auto">
+                            <div
+                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
+                            >
+                              Pump Setup
+                            </div>
+                            <div
+                              class="fw-700 text-dark-gray text-uppercase lh-initial"
+                            >
+                              Ensures stable household water flow.
+                            </div>
+                          </div>
+                          <div class="ms-auto">
+                            <i
+                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </li>
+
+                {{-- end project item--}}
+
+                         <!-- start portfolio item -->
+
+                <li
+                  class="grid-item  borehole transition-inner-all">
+
+
+                    <div class="portfolio-box">
+                      <div class="portfolio-image border-radius-4px">
+                        <img src="{{asset('images/project-eight.jpg')}}" alt="" />
+                      </div>
+                      <div class="portfolio-hover box-shadow-extra-large">
+                        <div
+                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
+                        >
+                          <div class="me-auto">
+                            <div
+                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
+                            >
+                              Borehole Installation
+                            </div>
+                            <div
+                              class="fw-700 text-dark-gray text-uppercase lh-initial"
+                            >
+                              Efficient borehole storage system.
                             </div>
                           </div>
                           <div class="ms-auto">
@@ -233,12 +317,12 @@
                          <!-- start portfolio item -->
 
                 <li
-                  class="grid-item selected pump transition-inner-all">
+                  class="grid-item solar transition-inner-all">
 
-                  <a href="">
+
                     <div class="portfolio-box">
                       <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
+                        <img src="{{asset('images/project-nine.jpg')}}" alt="" />
                       </div>
                       <div class="portfolio-hover box-shadow-extra-large">
                         <div
@@ -248,12 +332,12 @@
                             <div
                               class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
                             >
-                              Borehole drilling
+                              Home Solar Installation
                             </div>
                             <div
                               class="fw-700 text-dark-gray text-uppercase lh-initial"
                             >
-                              Strong foundation for lasting structures.
+                              Efficient rooftop solar installation.
                             </div>
                           </div>
                           <div class="ms-auto">
@@ -264,20 +348,17 @@
                         </div>
                       </div>
                     </div>
-                  </a>
+
                 </li>
 
                 {{-- end project item--}}
+ <li
+                  class="grid-item  solar transition-inner-all">
 
-                         <!-- start portfolio item -->
 
-                <li
-                  class="grid-item selected pump transition-inner-all">
-
-                  <a href="">
                     <div class="portfolio-box">
                       <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
+                        <img src="" alt="" />
                       </div>
                       <div class="portfolio-hover box-shadow-extra-large">
                         <div
@@ -287,12 +368,12 @@
                             <div
                               class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
                             >
-                              Borehole drilling
+                              Home Solar Installation
                             </div>
                             <div
                               class="fw-700 text-dark-gray text-uppercase lh-initial"
                             >
-                              Strong foundation for lasting structures.
+                              Efficient rooftop solar installation.
                             </div>
                           </div>
                           <div class="ms-auto">
@@ -303,89 +384,8 @@
                         </div>
                       </div>
                     </div>
-                  </a>
+
                 </li>
-
-                {{-- end project item--}}
-
-                         <!-- start portfolio item -->
-
-                <li
-                  class="grid-item selected pump transition-inner-all">
-
-                  <a href="">
-                    <div class="portfolio-box">
-                      <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
-                      </div>
-                      <div class="portfolio-hover box-shadow-extra-large">
-                        <div
-                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
-                        >
-                          <div class="me-auto">
-                            <div
-                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
-                            >
-                              Borehole drilling
-                            </div>
-                            <div
-                              class="fw-700 text-dark-gray text-uppercase lh-initial"
-                            >
-                              Strong foundation for lasting structures.
-                            </div>
-                          </div>
-                          <div class="ms-auto">
-                            <i
-                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
-                            ></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-
-                {{-- end project item--}}
-
-                         <!-- start portfolio item -->
-
-                <li
-                  class="grid-item selected pump transition-inner-all">
-
-                  <a href="">
-                    <div class="portfolio-box">
-                      <div class="portfolio-image border-radius-4px">
-                        <img src="https://darrdrilling.com.au/wp-content/uploads/2021/09/a1-1024x822.jpeg" alt="" />
-                      </div>
-                      <div class="portfolio-hover box-shadow-extra-large">
-                        <div
-                          class="bg-white d-flex align-items-center align-self-end text-start border-radius-4px ps-30px pe-30px pt-20px pb-20px lg-p-20px w-100"
-                        >
-                          <div class="me-auto">
-                            <div
-                              class="fs-12 fw-500 text-medium-gray text-uppercase lh-24"
-                            >
-                              Borehole drilling
-                            </div>
-                            <div
-                              class="fw-700 text-dark-gray text-uppercase lh-initial"
-                            >
-                              Strong foundation for lasting structures.
-                            </div>
-                          </div>
-                          <div class="ms-auto">
-                            <i
-                              class="feather icon-feather-plus icon-extra-medium text-dark-gray lh-36"
-                            ></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-
-                {{-- end project item--}}
-
 
               </ul>
             </div>
