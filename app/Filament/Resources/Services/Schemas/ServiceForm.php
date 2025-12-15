@@ -2,14 +2,16 @@
 
 namespace App\Filament\Resources\Services\Schemas;
 
-use Filament\Forms;
-use Filament\Forms\Form;
+
+
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\FileUpload;
-use App\Models\Service;
+
 use Filament\Schemas\Schema;
+
+
 
 class ServiceForm
 {
@@ -29,11 +31,12 @@ class ServiceForm
                 Select::make('category')
                     ->label('Category')
                     ->options([
-                        'news' => 'News',
-                        'events' => 'Events',
-                        'general' => 'General',
-                    ])
-                    ->required(),
+                        'borehole' => 'Borehole',
+                        'solar' => 'Solar Installation',
+                        'bushPump' => 'Bush Pump',
+                        'irrigation' => 'Irrigation',
+                    ]),
+                   // ->required(),
 
                 Textarea::make('information')
                     ->label('Additional Information')
@@ -43,9 +46,9 @@ class ServiceForm
                     ->label('Service Photo')
                     ->image()
                     ->downloadable()
-                    ->disk('public')
-                    ->directory('services')
-                    ->required()
+                    ->disk('uploads')
+                    ->directory('/')
+                    //->required()
                     ->helperText('600 x 710 recommended'),
             ]);
     }

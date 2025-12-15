@@ -5,7 +5,7 @@ namespace App\Filament\Resources\Testimonials\Schemas;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
-use App\Models\Testimonial;
+
 
 class TestimonialForm
 {
@@ -15,12 +15,27 @@ class TestimonialForm
             ->components([
                 TextInput::make('name')
                     ->label('Name')
-                    ->required(),
+                    ->required()
+                    ->minLength(2)
+                    ->placeholder(' max of about 3-4 words')
+                    ->maxLength(45),
 
 
                 Textarea::make('description')
                     ->label('Description')
-                    ->required(),
+                    ->required()
+                    ->minLength(30)
+                    ->placeholder('min of about 3-4 words and max of about 30 words')
+                    ->maxLength(200),
+
+                TextInput::make('phone_number')
+                    ->label('Phone Number')
+                    ->tel()
+                    ->maxLength(20)
+                    ->nullable(),
+
+
+
             ]);
     }
 }

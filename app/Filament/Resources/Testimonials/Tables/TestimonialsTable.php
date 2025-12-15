@@ -8,8 +8,6 @@ use Filament\Actions\EditAction;
 use Filament\Tables\Table;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Columns\ImageColumn;
-use Filament\Tables\Columns\BadgeColumn;
 use Filament\Actions\ViewAction;
 use Filament\Actions\DeleteAction;
 
@@ -24,9 +22,15 @@ class TestimonialsTable
                 ->searchable()
                 ->sortable(),
 
+            TextColumn::make('phone_number')
+                ->label('Phone')
+                ->searchable()
+                ->sortable(),
+
                 TextColumn::make('description')
                 ->label('Description')
                 ->limit(50),
+
 
             ])
             ->filters([

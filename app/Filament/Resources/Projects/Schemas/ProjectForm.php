@@ -2,13 +2,11 @@
 
 namespace App\Filament\Resources\Projects\Schemas;
 
-use Filament\Forms;
-use Filament\Forms\Form;
+
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\FileUpload;
-use App\Models\Project;
 use Filament\Schemas\Schema;
 
 class ProjectForm
@@ -29,9 +27,10 @@ class ProjectForm
                 Select::make('category')
                     ->label('Category')
                     ->options([
-                        'news' => 'News',
-                        'events' => 'Events',
-                        'general' => 'General',
+                        'borehole' => 'Borehole',
+                        'solar' => 'Solar Installation',
+                        'bushPump' => 'Bush Pump',
+                        'irrigation' => 'Irrigation',
                     ])
                     ->required(),
 
@@ -41,8 +40,8 @@ class ProjectForm
                     ->label('Service Photo')
                     ->image()
                     ->downloadable()
-                    ->disk('public')
-                    ->directory('services')
+                    ->disk('uploads')
+                    ->directory('/')
                     ->required()
                     ->helperText('600 x  600 commended'),
             ]);

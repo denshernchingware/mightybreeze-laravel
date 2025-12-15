@@ -9,7 +9,6 @@ use Filament\Tables\Table;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
-use Filament\Tables\Columns\BadgeColumn;
 use Filament\Actions\ViewAction;
 use Filament\Actions\DeleteAction;
 
@@ -22,9 +21,9 @@ class ProjectsTable
 
             ImageColumn::make('image')
                 ->label('Photo')
-                ->disk('public')
-                ->width(60)
-                ->height(60),
+                ->disk('uploads')
+                ->width(60),
+
 
             TextColumn::make('title')
                 ->label('Title')

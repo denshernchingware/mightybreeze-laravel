@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\About;
 use Illuminate\Http\Request;
+use App\Models\Service;
+use App\Models\Project;
+use App\Models\Testimonial;
 
 class TemplateController extends Controller
 {
@@ -11,25 +15,33 @@ class TemplateController extends Controller
      */
     public function index()
     {
-        return view('frontend.home');
+        $services = Service::all();
+        $projects = Project::latest()->take(1)->get();
+        $testimonials = Testimonial::all();
+        $abouts = About::all();
+        return view('frontend.home', compact('services', 'projects', 'testimonials', 'abouts'));
     }
-       public function about()
+    public function about()
     {
-        return view('frontend.about');
+        $abouts = About::all();
+        return view('frontend.about', compact('abouts'));
     }
-       public function projects()
+    public function projects()
     {
-        return view('frontend.projects');
+        $projects = Project::all();
+        return view('frontend.projects', compact('projects'));
     }
-       public function services()
+    public function services()
     {
-        return view('frontend.services');
+        $services = Service::all();
+        return view('frontend.services', compact('services'));
     }
-       public function testimonial()
+    public function testimonial()
     {
-        return view('frontend.testimonial');
+        $testimonials = Testimonial::all();
+        return view('frontend.testimonial', compact('testimonials'));
     }
-       public function contact()
+    public function contact()
     {
         return view('frontend.contact');
     }
