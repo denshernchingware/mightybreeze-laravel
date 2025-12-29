@@ -39,7 +39,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-two.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-two-two.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -69,7 +69,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-three.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-three.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -98,7 +98,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-four.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-four.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -129,7 +129,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-five.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-five.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -160,7 +160,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-six.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-six.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -191,7 +191,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-seven.jpeg') }}" alt="" />
+                                <img src="{{ asset('images/project-seven.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -222,7 +222,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-eight.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-eight.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div
@@ -254,7 +254,7 @@
 
                         <div class="portfolio-box">
                             <div class="portfolio-image border-radius-4px">
-                                <img src="{{ asset('images/project-nine.jpg') }}" alt="" />
+                                <img src="{{ asset('images/project-nine.png') }}" alt="" />
                             </div>
                             <div class="portfolio-hover box-shadow-extra-large">
                                 <div

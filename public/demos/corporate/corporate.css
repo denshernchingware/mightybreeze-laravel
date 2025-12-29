@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 /* variable */
 :root {
-    --base-color: #508CA8;
+    /* --base-color: #508CA8; */
     --medium-gray: #878898;
     --dark-gray: #242E45;
+
     --light-red: #F2F1FC;
     --alt-font: 'Plus Jakarta Sans', sans-serif;
     --primary-font: 'Plus Jakarta Sans', sans-serif;
@@ -29,7 +30,7 @@ sup {
 }
 a {
     color: #878898;
-} 
+}
 b, strong {
     font-weight: 700;
 }
@@ -115,7 +116,7 @@ h2 {
     background: -webkit-linear-gradient(right, rgba(240, 244, 253, 1.0), rgba(255, 255, 255, 0.0));
     background: linear-gradient(to right, rgba(240, 244, 253, 1.0), rgba(255, 255, 255, 0.0));
 }
-.bg-gradient-blue-whale-transparent { 
+.bg-gradient-blue-whale-transparent {
   background: -webkit-linear-gradient(right, #508CA8, rgba(80,140,168,0));
 background: linear-gradient(to right, #508CA8, rgba(80,140,168,0));
 
@@ -124,7 +125,7 @@ background: linear-gradient(to right, #508CA8, rgba(80,140,168,0));
     background: -webkit-linear-gradient(right, rgba(227, 225, 245, 1.0), rgba(255, 255, 255, 0.0));
     background: linear-gradient(to right, rgba(227, 225, 245, 1.0), rgba(255, 255, 255, 0.0));
 }
-.bg-gradient-quartz-white { 
+.bg-gradient-quartz-white {
     background-image: linear-gradient(to bottom, #f7f7ff, #f4f4fb, #f8f7fc, #fbfbfe, #ffffff);
 }
 .bg-gradient-base-color-transparent {
@@ -147,7 +148,8 @@ background: linear-gradient(to right, #508CA8, rgba(80,140,168,0));
     background: linear-gradient(to top, #162340 7%, transparent 70%);
 }
 .bg-regal-blue {
-    background-color: #508CA8;
+    /* background-color: #508CA8; */
+    background-color: #162340;
 }
 .bg-blue-whale {
     background-color: #16233F;
@@ -204,11 +206,7 @@ background: linear-gradient(to right, #508CA8, rgba(80,140,168,0));
     background-color: transparent;
 }
 .btn-gradient-flamingo-amethyst-green {
-    background-image: linear-gradient(to right,
-  #0F9631,
-  #27A9E0,
-  #1C86C9
-);
+    background-image:  linear-gradient(to right, #f7693c, #c74e45, #7d3785, #582d9f, #3928af, #582d9f, #7d3785, #c74e45, #f7693c);
 background-size: 200% auto;
     color: var(--white);
 }
@@ -216,7 +214,7 @@ background-size: 200% auto;
 .interactive-banner-style-02.dark-hover:hover .btn {
     opacity: 0.7;
 }
-/* blog comment */ 
+/* blog comment */
 .blog-comment li .btn-reply {
     padding: 6px 20px 7px;
 }
@@ -364,14 +362,14 @@ footer ul li {
     }
     .position-relative{
     margin-top:40px;
- } 
+ }
  .row-about{
      margin-top:-80px;
   margin-bottom:80px;
  }
 }
 .bg-blue{
-   background-color: #508CA8;
+   background-color: #162340;
    color: #ffffff;
 }
 .text-white li a{

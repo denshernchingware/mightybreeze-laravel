@@ -2,18 +2,20 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>Crafto - The Multipurpose HTML5 Template</title>
+    <title>MightyBreeze</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="ThemeZaa" />
+    <meta name="author" content="DMTechnologies" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="description"
-        content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 56+ ready demos." />
+        content="MightyBreeze Boreholes & Irrigation specializes in borehole drilling, water supply systems,solar installation and efficient irrigation solutions." />
+        <link rel="icon" href="data:,">
+
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" />
-    <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon-57x57.png') }}" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon-72x72.png') }}" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/apple-touch-icon-114x114.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('images/fav-logo.png') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('images/fav-logo-one.png') }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/fav-logo-three.png') }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/fav-logo-four.png') }}" />
 
     <!-- Google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
@@ -172,17 +174,19 @@
     </footer>
 
     <!-- end footer -->
-    <div class="position-fixed bottom-0 end-0 m-4" style="z-index:999;">
-        <a href="https://wa.me/1234567890" target="_blank"
-            class="d-flex align-items-center justify-content-center bg-success rounded-circle shadow"
-            style="width:60px; height:60px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
-                viewBox="0 0 16 16">
-                <path
-                    d="M13.601 2.326A7.854 7.854 0 0 0 8.048 0C3.603 0 .044 3.558.044 7.996c0 1.41.365 2.79 1.057 4.007L0 16l4.107-1.077a7.96 7.96 0 0 0 3.94 1.034h.003c4.445 0 8.004-3.558 8.004-7.996a7.84 7.84 0 0 0-2.453-5.631zM8.05 14.562a6.54 6.54 0 0 1-3.337-.913l-.239-.142-2.434.638.651-2.373-.156-.244a6.47 6.47 0 0 1-1.01-3.464c0-3.583 2.915-6.498 6.506-6.498a6.48 6.48 0 0 1 6.506 6.498c0 3.584-2.916 6.498-6.507 6.498zm3.722-4.864c-.203-.102-1.203-.593-1.39-.661-.187-.068-.323-.102-.458.102s-.525.661-.645.797c-.119.136-.237.153-.44.051a5.28 5.28 0 0 1-1.551-.957 5.76 5.76 0 0 1-.998-1.246c-.119-.203-.013-.313.09-.415.093-.092.204-.238.306-.356.102-.119.136-.204.204-.34.068-.137.034-.255-.017-.356-.051-.102-.458-1.102-.628-1.508-.166-.398-.335-.34-.458-.34-.119-.017-.255-.017-.39-.017a.75.75 0 0 0-.543.255c-.187.203-.712.694-.712 1.69s.729 1.962.83 2.102c.102.136 1.434 2.187 3.475 3.063.485.209.863.333 1.157.425.485.153.924.132 1.272.08.389-.059 1.203-.49 1.372-.964.17-.474.17-.882.119-.964-.051-.085-.187-.136-.39-.238z" />
-            </svg>
-        </a>
-    </div>
+{{-- whatsapp icon --}}
+<div class="position-fixed bottom-0 end-0 m-4" style="z-index:999;">
+    <a href="https://wa.me/263718995907?text=Hello%20MightyBreeze%2C%20I%20would%20like%20to%20inquire%20about%20your%20borehole%20and%20irrigation%20services."
+       target="_blank"
+       class="d-flex align-items-center justify-content-center bg-success rounded-circle shadow"
+       style="width:60px; height:60px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+             viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 8.048 0C3.603 0 .044 3.558.044 7.996c0 1.41.365 2.79 1.057 4.007L0 16l4.107-1.077a7.96 7.96 0 0 0 3.94 1.034h.003c4.445 0 8.004-3.558 8.004-7.996a7.84 7.84 0 0 0-2.453-5.631zM8.05 14.562a6.54 6.54 0 0 1-3.337-.913l-.239-.142-2.434.638.651-2.373-.156-.244a6.47 6.47 0 0 1-1.01-3.464c0-3.583 2.915-6.498 6.506-6.498a6.48 6.48 0 0 1 6.506 6.498c0 3.584-2.916 6.498-6.507 6.498zm3.722-4.864c-.203-.102-1.203-.593-1.39-.661-.187-.068-.323-.102-.458.102s-.525.661-.645.797c-.119.136-.237.153-.44.051a5.28 5.28 0 0 1-1.551-.957 5.76 5.76 0 0 1-.998-1.246c-.119-.203-.013-.313.09-.415.093-.092.204-.238.306-.356.102-.119.136-.204.204-.34.068-.137.034-.255-.017-.356-.051-.102-.458-1.102-.628-1.508-.166-.398-.335-.34-.458-.34-.119-.017-.255-.017-.39-.017a.75.75 0 0 0-.543.255c-.187.203-.712.694-.712 1.69s.729 1.962.83 2.102c.102.136 1.434 2.187 3.475 3.063.485.209.863.333 1.157.425.485.153.924.132 1.272.08.389-.059 1.203-.49 1.372-.964.17-.474.17-.882.119-.964-.051-.085-.187-.136-.39-.238z"/>
+        </svg>
+    </a>
+</div>
+
 
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">

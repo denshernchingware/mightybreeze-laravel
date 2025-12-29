@@ -15,7 +15,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- slide's main background image -->
-                        <img src="images/slider-one.png" alt="Image" data-bgposition="center center" data-bgfit="cover"
+                        <img src="images/slider-two.png" alt="Image" data-bgposition="center center" data-bgfit="cover"
                             data-bgrepeat="no-repeat" class="rev-slidebg img-fluid d-block d-lg-none" data-no-retina
                             id="mobile-img" />
 
@@ -193,7 +193,7 @@
                         data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                         data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- slide's main background image -->
-                        <img src="images/slider-two.png" alt="Image" data-bgposition="center center"
+                        <img src="images/slider-one.png" alt="Image" data-bgposition="center center"
                             data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina />
                         <!-- start overlay layer -->
                         <div class="tp-caption tp-shape tp-shapewrapper" id="slide-2-layer-01"
@@ -660,7 +660,7 @@
                         class="position-absolute top-50 left-minus-100px lg-left-minus-40px sm-left-minus-30px lg-w-50 sm-w-55"
                         data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-220px)"
                         alt="" />
-                    <img src="images/expertise.png"
+                    <img src="{{ asset('images/exp-one.png') }}"
                         class="position-absolute top-0px xl-top-minus-10px w-170px right-20px md-right-40px xs-w-40"
                         data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)"
                         alt="" />
@@ -715,7 +715,7 @@
     <!-- end section -->
     <!-- start section -->
     <section class="overflow-hidden bg-regal-blue position-relative border-radius-6px lg-border-radius-0px z-index-0">
-        <img src="" class="position-absolute top-minus-150px left-minus-30px z-index-minus-1"
+        <img src="	https://craftohtml.themezaa.com/images/demo-corporate-bg-01.png" class="position-absolute top-minus-150px left-minus-30px z-index-minus-1"
             data-bottom-top="transform: rotate(0deg) translateY(0)"
             data-top-bottom="transform:rotate(-20deg) translateY(0)" alt="" />
         <div class="container" style="padding-top:30px;">

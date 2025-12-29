@@ -44,7 +44,7 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #508ca8;
+  --base-color: #242e45;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -11459,11 +11459,8 @@ blockquote footer {
   color: var(--base-color);
 }
 .btn.btn-dark-gray {
- background-image: linear-gradient(to right,
-  #0F9631,
-  #27A9E0,
-  #1C86C9
-);
+ background-color:#242e45;
+
 background-size: 200% auto;
     color: var(--white);
 }
