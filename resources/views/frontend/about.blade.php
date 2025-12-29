@@ -79,7 +79,7 @@
                         data-anime='{ "el": "childs", "translateY": [-30, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <div class="feature-box feature-box-left-icon-middle">
                             <div
-                                class="feature-box-icon feature-box-icon-rounded w-55px h-55px rounded-circle bg-yellow me-15px">
+                                class="feature-box-icon feature-box-icon-rounded w-55px h-55px rounded-circle bg-base-color me-15px">
                                 <i class="bi bi-award d-inline-block icon-extra-medium text-dark-gray text-wt"></i>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                     <!-- ACCORDION -->
                     <div class="accordion accordion-style-05" id="accordion-style-05"
                         data-anime='{ "el": "childs", "translateY": [-30, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        
+
                         <div class="accordion-item bg-white active-accordion">
                             <h3
                                 class="number alt-font mb-0 text-base-color fw-400 text-outline text-outline-color-base-color">

@@ -35,7 +35,7 @@
 </head>
 
 
-<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#242E45">
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#162340">
     <div class="box-layout">
         <!-- start header -->
         <header>
