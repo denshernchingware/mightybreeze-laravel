@@ -2,7 +2,7 @@
 @section('content')
     <!-- start page title -->
     <section class="top-space-margin page-title-big-typography border-radius-6px lg-border-radius-0px p-0"
-        data-parallax-background-ratio="0.5" style="background-image: url(images/contact.png)">
+        data-parallax-background-ratio="0.5"  style="background-image: url('{{ asset('images/contact-main.jpg') }}');">
         <div class="opacity-extra-medium bg-blue-whale"></div>
         <div class="container">
             <div class="row align-items-center justify-content-center small-screen">
@@ -82,7 +82,7 @@
     <section
         class="d-none d-lg-block position-relative one-half-screen sm-small-screen overflow-hidden border border-radius-top-lr lg-border-radius-0px"
         data-parallax-background-ratio="0.5"
-        style="background-image: url(https://agronoblog.com/wp-content/uploads/2024/04/DALL%C2%B7E-2024-04-26-12.59.54-A-highly-realistic-image-of-an-agricultural-field-using-an-irrigation-system-to-water-plants.-The-image-shows-an-expansive-field-under-a-clear-blue-sk-1024x585.webp)">
+        style="background-image: url('{{ asset('images/test-main.png') }}');">
         <div class="opacity-light bg-dark-gray"></div>
         <div
             class="fs-225 ls-minus-10px alt-font text-gradient-orange-sky-blue fw-600 position-absolute left-minus-25px bottom-minus-50px sm-ls-minus-5px sm-bottom-minus-20px sm-fs-200 xs-left-minus-10px xs-fs-130">

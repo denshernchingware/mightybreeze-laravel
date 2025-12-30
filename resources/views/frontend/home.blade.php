@@ -15,7 +15,7 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- slide's main background image -->
-                        <img src="images/slider-two.png" alt="Image" data-bgposition="center center" data-bgfit="cover"
+                        <img src="{{asset('images/slide-one-one.png')}}" alt="Image" data-bgposition="center center" data-bgfit="cover"
                             data-bgrepeat="no-repeat" class="rev-slidebg img-fluid d-block d-lg-none" data-no-retina
                             id="mobile-img" />
 
@@ -193,7 +193,7 @@
                         data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                         data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- slide's main background image -->
-                        <img src="images/slider-one.png" alt="Image" data-bgposition="center center"
+                        <img src="images/slider-two.png" alt="Image" data-bgposition="center center"
                             data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina />
                         <!-- start overlay layer -->
                         <div class="tp-caption tp-shape tp-shapewrapper" id="slide-2-layer-01"

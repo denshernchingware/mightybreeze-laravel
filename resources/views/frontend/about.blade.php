@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('content')
     <section class="top-space-margin page-title-big-typography border-radius-6px lg-border-radius-0px p-0"
-        data-parallax-background-ratio="0.5" style="background-image: url(images/about-us-sec.png)">
+        data-parallax-background-ratio="0.5" style="background-image:url('{{ asset('images/about-main-main.png') }}'); ">
         <div class="opacity-extra-medium bg-blue-whale"></div>
         <div class="container">
             <div class="row align-items-center justify-content-center small-screen">

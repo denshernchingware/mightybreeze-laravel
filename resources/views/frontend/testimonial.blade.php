@@ -2,7 +2,7 @@
 @section('content')
     <section class="top-space-margin page-title-big-typography border-radius-6px lg-border-radius-0px p-0"
         data-parallax-background-ratio="0.5"
-        style="background-image: url(https://agronoblog.com/wp-content/uploads/2024/04/DALL%C2%B7E-2024-04-26-12.59.54-A-highly-realistic-image-of-an-agricultural-field-using-an-irrigation-system-to-water-plants.-The-image-shows-an-expansive-field-under-a-clear-blue-sk-1024x585.webp)">
+        style="background-image: url('{{ asset('images/test-main.png') }}');">
         <div class="opacity-extra-medium bg-blue-whale"></div>
         <div class="container">
             <div class="row align-items-center justify-content-center small-screen">
@@ -75,5 +75,5 @@
 
     @include('frontend.layout.testimonial')
     @include('frontend.layout.client')
-    
+
 @endsection
