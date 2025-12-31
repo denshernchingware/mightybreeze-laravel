@@ -2,17 +2,24 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactUs;
 use App\Models\About;
+use App\Models\ContactMail;
 use Illuminate\Http\Request;
 use App\Models\Service;
 use App\Models\Project;
 use App\Models\Testimonial;
+use Illuminate\Support\Facades\Mail;
+
 
 class TemplateController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+
+
+
     public function index()
     {
         $services = Service::all();
@@ -44,6 +51,26 @@ class TemplateController extends Controller
     public function contact()
     {
         return view('frontend.contact');
+    }
+    public function contactSubmit(Request $request)
+    {
+        $validated = $request->validate([
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email|max:255',
+            'phone'   => 'nullable|string|max:20',
+            'subject' => 'nullable|string|max:255',
+            'comment' => 'required|string|min:10',
+        ]);
+
+        // Example: send email / save to DB
+       Mail::to('info@mightybreeze.co.zw')->send(new ContactUs($validated));
+
+        // Save to database
+        ContactMail::create($validated);
+
+        // return back()->with('success', 'Message sent successfully!');
+        return redirect()->to(url()->previous() . '#contactFormSection')
+                     ->with('success', 'Your message has been sent successfully!');
     }
 
     /**

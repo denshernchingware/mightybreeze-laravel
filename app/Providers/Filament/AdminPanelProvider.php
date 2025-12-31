@@ -32,6 +32,8 @@ class AdminPanelProvider extends PanelProvider
             ->brandLogo(asset('images/mightybreeze-logo.png'))
             ->brandLogoHeight('5rem')
             ->login()
+            ->favicon(null)
+
             ->colors([
                 'primary' => Color::Green,
             ])
