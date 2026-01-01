@@ -37,7 +37,7 @@ class ProjectForm
 
 
                 FileUpload::make('image')
-                    ->label('Service Photo')
+                    ->label('Project Photo')
                     ->image()
                     ->downloadable()
                     ->disk('uploads')
